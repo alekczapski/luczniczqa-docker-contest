@@ -78,3 +78,5 @@ luczniczqa-docker-contest   latest              b1839f0a2bec        3 minutes ag
 [ac@centos7vm luczniczqa-docker-contest]$ docker run --rm -p 8080:8080 luczniczqa-docker-contest:latest
 2020/05/01 06:08:15 Listening on :8080...
 ```
+
+Tu byłem
