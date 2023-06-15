@@ -1,4 +1,4 @@
-FROM golang:alpine AS builder
+FROM docker.io/library/golang:alpine AS builder
 WORKDIR $GOPATH/src/alekczapski/
 COPY server.go .
 RUN GO111MODULE=off CGO_ENABLED=0 go build -ldflags="-s -w" -o /go/server
