@@ -8,4 +8,4 @@ RUN upx --brute /go/server
 FROM scratch
 COPY --from=builder /go/server .
 COPY index.html .
-CMD ["./server"]
+ENTRYPOINT ["/server"]
